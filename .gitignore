@@ -1,5 +1,3 @@
-Thumbs.db*
-.DS_Store
 HELP.md
 .gradle
 build/
@@ -43,7 +41,3 @@ out/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-/.idea/
-/.allure/
-/build (2)/
-.allure
