@@ -145,7 +145,7 @@ public class BuyGateTest {
     }
 
     @Test
-    public void shouldNotCreditMinNameHolder() {
+    public void shouldNotPayMinNameHolder() {
         var startPage = new PaymentMethod();
         var payCard = startPage.openBuyCard();
         var invalidCard = DataHelper.getLessThanTwoSymbolsName();
@@ -154,7 +154,7 @@ public class BuyGateTest {
     }
 
     @Test
-    public void shouldNotCreditMaxNameHolder() {
+    public void shouldNotPayMaxNameHolder() {
         var startPage = new PaymentMethod();
         var payCard = startPage.openBuyCard();
         var invalidCard = DataHelper.getMoreThan24SymbolsName();
